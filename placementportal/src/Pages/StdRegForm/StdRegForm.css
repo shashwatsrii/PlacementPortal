@@ -1,0 +1,126 @@
+.FormContainerOuter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #add8e6;
+    margin: 0;
+}
+.FormContainer1{
+    position: relative;
+    width: 75%;
+    border-radius: 6px;
+    padding: 30px;
+    margin: 0 15px;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+#JUITLogo{
+    display: flex;
+    justify-content: center;
+    height: 10rem;
+}
+.SAFHeading{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    padding-top: 4vh;
+    font-weight: 700;
+    color: black;
+}
+.Heading{
+    position: relative;
+    font-size: 20px;
+    font-weight: 600;
+    color: #333;
+    border-bottom: #add8e6;
+    background-color: #add8e6;
+    padding: 2vh;
+    width: 20%;
+    margin-left: -3.3%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+
+}
+.Heading ::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 60px;
+    border-radius: 5px;
+    background: #add8e6; 
+}
+.fields{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+.fields .input-field{
+    display: block;
+    height: 45px;
+    width: 11rem;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 20px 0 12px 0;
+    border-radius: 5px;
+    padding-left: 15px;
+    border-radius: 5px;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+    
+}
+
+.fields .input-field input{
+    height: 40px;
+    border-radius: 3px;
+}
+.FormContainer1 form .fields .input-field option{
+    height: 45px;
+}
+.FormContainer1 form .fields .input-field .national{
+    height:35px;
+    width: 150px;
+    border-radius: 3px;
+}
+#Table1{
+    border-spacing: 20px;
+}
+#TD1{
+    background-color: #add8e6;
+}
+.tableQualifications{
+    display: flex;
+    flex-direction: column;
+}
+.QualificationHeading{
+    position: relative;
+    font-size: 20px;
+    font-weight: 600;
+    color: #333;
+    border-bottom: #add8e6;
+    background-color: #add8e6;
+    padding: 2vh;
+    width: 20%;
+    margin-left: -3.3%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.RedTEXT{
+    color: red;
+}
+.SRBtns{
+    display: flex;
+    gap: 2vw;
+}
+#DropDown1, #DropDown2, #DropDown3{
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}

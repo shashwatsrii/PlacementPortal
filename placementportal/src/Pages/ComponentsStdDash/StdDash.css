@@ -1,0 +1,149 @@
+.containerStdDash {
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(250, 250, 250);
+}
+
+.leftStdDash {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 25%;
+    background-color: #ADD8E6;
+    color: white;
+    position: fixed;
+    height: 100%;
+        
+}
+
+.rightFeed {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin-left: 25%;
+}
+
+.OverviewHeading {
+    color: #084a60;
+}
+
+.HeadingPortal {
+    display: flex;
+    color:#084a60;
+    font-weight: 900;
+    font-size: 1.5rem;
+    height: 20vh;
+    justify-content: center;
+    padding-left: 1.5vw;
+    align-items: center;
+}
+
+.TabsDash {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    height: 6vh;
+    font-weight: 700;
+    padding-left: 2.5vw;
+}
+
+.IconsDash {
+    width: 1.5vw;
+    height: 1.5vw;
+}
+
+.boxesFeed {
+    display: flex;
+    gap: 5rem;
+    padding: 3rem;
+    justify-content: center;
+}
+.JobsAppliedContainer2:hover,.JobsAppliedContainer:hover{
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.JobsAppliedContainer,
+.JobsAppliedContainer2 {
+    width: 12vw;
+    padding: 3rem;
+    
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.IconJobApp {
+    width: 35px;
+    height: 35px;
+}
+
+.JAContainer,
+.JAContainer2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.JobsAppBoxIcon2,
+.JobsAppBoxIcon {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.HeaderRightFeed{
+    display: flex;
+    width: 100%;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+    padding: 1.5rem;
+  
+}
+.DashboardStdFeed{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 80%;
+    font-weight: bolder;
+    gap: 0.5vw;
+}
+.DashboardTextfeed{
+    padding-bottom: 0.5%;
+}
+.DashboardStdRight{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(250, 250, 250) ;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    padding: 0.5rem;
+    border-radius: 3px;
+    gap: 1vw;
+    font-weight: bolder;
+    position: relative;
+}
+.DashIconStd, .ProfileIcon{
+    width: 2vw;
+    height: 2vw;
+}
+.AvailJobsText h1 {
+    font-size:2rem;
+    font-weight:bold;
+    margin-left: 5%; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .AvailJobsText h1:before {
+      background-color: #ADD8E6;
+      border-radius: 0.25rem;
+      content: '';
+      display: block;
+      height: 0.25rem;
+      width: 42px;
+      margin-bottom: 0.5rem;
+  }

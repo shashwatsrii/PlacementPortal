@@ -1,0 +1,46 @@
+.StdFeedCard{
+    padding: 2rem;
+}
+.Card{
+    display: flex;
+    padding: 1.5rem;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+    background-color: white;
+}
+.Card:hover{
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.CmpLogo{
+    width: 4vw;
+    height: 10vh;
+}
+.CompanyDetails{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 65%;
+    padding-left: 1.5rem;
+}
+.CompanyName{
+    font-weight: bolder;
+    font-size: larger;
+}
+.CompanyDes{
+    font-weight: bold;
+    font-size: small;
+}
+.CardrightSide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+.ApplyBtn{
+    background-color: #ADD8E6;
+    padding: 1rem;
+    width: 100%;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    border-radius: 5px;
+}

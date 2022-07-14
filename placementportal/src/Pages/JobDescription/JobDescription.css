@@ -1,0 +1,109 @@
+.OuterBodyJobDes {
+    background-color: #add8e6;
+    font-family: Roboto;
+    font-weight: light;
+    margin: 0;
+    padding: 5rem;
+}
+
+.mainBodyJD {
+    background: white;
+    
+    padding: 10px 15px;
+    box-shadow:
+        0px 0px 3.8px rgba(0, 0, 0, 0.022),
+        0px 0px 9.2px rgba(0, 0, 0, 0.032),
+        0px 0px 17.4px rgba(0, 0, 0, 0.04),
+        0px 0px 31px rgba(0, 0, 0, 0.048),
+        0px 0px 58.1px rgba(0, 0, 0, 0.058),
+        0px 0px 139px rgba(0, 0, 0, 0.08);
+
+    background: white;
+    border-radius: 5px;
+}
+.companyHeaderJD{
+    display: flex;
+    margin-top: 2rem;
+}
+.CompanyDetails{
+    display: flex;
+    flex-direction: row;
+    gap: 35rem;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.companyND{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.companyNameJD,
+.jobPosJD {
+    font-family: Roboto Slab;
+}
+
+.jobPosJD {
+    margin-bottom: 0;
+}
+
+.companyNameJD {
+    margin-top: 0;
+}
+
+.packageJD {
+    background-color: #fdd15aaf;
+    border-radius: 8px;
+    border-style: none;
+    color: #ffa200;
+    font-size: 14px;
+    padding: 8px;
+    text-align: center;
+    width: 10vw;
+    float: right;
+    margin-right: 10%;
+    margin-top: 0.5%;
+}
+
+.companyImgJD {
+    float: left;
+    width: 6rem;
+    height: 6rem;
+    margin-left: 20px;
+    margin-right: 40px;
+}
+
+.jobDescJD,
+.ButtonsJD {
+    margin-left: 50px;
+}
+
+.jobDescJD {
+    margin-top: 90px;
+}
+
+th {
+    margin-right: 30%;
+}
+
+tr {
+    text-align: left;
+}
+
+td {
+    padding: 5px 20px;
+}
+
+.applyBtnJD {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: #3fb2ff;
+    border-radius: 8px;
+    border-style: none;
+    color: #ffffff;
+    font-size: 14px;
+    padding: 10px 16px;
+    text-align: center;
+    width: 10vw;
+}
