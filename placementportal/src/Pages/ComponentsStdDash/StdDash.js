@@ -8,6 +8,7 @@ import NotificationIcon from '../../assets/NotificationIcon.png';
 import JobFeed from './JobFeed';
 import DashIcon from '../../assets/DashIcon.png'
 import ProfileNav from '../../assets/ProfileNav.jpeg'
+import { Link } from 'react-router-dom';
 
 
 function StdDash() {
@@ -21,13 +22,12 @@ function StdDash() {
                         <div className='OverviewHeading'>Dashboard</div>
                     </div>
                     <div className='JobsTab TabsDash'>
-                        <div className='JobsIcon'> <img className='IconsDash' id='JobsIcon' src={JobsIcon} alt='logo' /></div>
-                        <div className='JobsHeading'>Jobs</div>
+                        <Link className='LinkJobFeedSD' to='/StudentDashboard/JobFeed'>
+                            <div className='JobsIcon'> <img className='IconsDash' id='JobsIcon' src={JobsIcon} alt='logo' /></div>
+                            <div className='JobsHeading'>Jobs</div>
+                        </Link>
                     </div>
-                    <div className='ProfileTab TabsDash'>
-                        <div className='ProfileIcon'> <img className='IconsDash' id='ProfileIcon' src={ProfileIcon} alt='logo' /></div>
-                        <div className='ProfileHeading'>Profile</div>
-                    </div>
+
                     <div className='NotificationTab TabsDash'>
                         <div className='NotificationIcon'> <img className='IconsDash' id='NotificationIcon' src={NotificationIcon} alt='logo' /></div>
                         <div className='NotificationHeading'>Notifications</div>
@@ -55,17 +55,17 @@ function StdDash() {
                                 <div className='numberOfJobsApp'><b>10</b></div>
                             </div>
                         </div>
-                        <div className='JobsAppliedContainer2'>
-                            <div className='JobsAppBoxIcon2'><img className='IconJobApp' src={JobsIcon2} alt='logo' /></div>
-                            <div className='JAContainer2'>
-                                <div className='numberOfJobsApptext2'>Jobs Available</div>
-                                <div className='numberOfJobsApp2'><b>35</b></div>
+                        <Link className='LinkJA' to='/StudentDashboard/JobFeed'>
+                            <div className='JobsAppliedContainer2'>
+                                <div className='JobsAppBoxIcon2'><img className='IconJobApp' src={JobsIcon2} alt='logo' /></div>
+                                <div className='JAContainer2'>
+                                    <div className='numberOfJobsApptext2'>Jobs Available</div>
+                                    <div className='numberOfJobsApp2'><b>35</b></div>
+                                </div>
                             </div>
-                        </div>
+                        </Link>
                     </div>
-                    <div class="AvailJobsText">
-                        <h1>Jobs Available</h1>
-                    </div>
+
                     <JobFeed />
                 </div>
 

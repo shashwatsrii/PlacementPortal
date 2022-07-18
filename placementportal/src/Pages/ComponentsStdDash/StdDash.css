@@ -13,10 +13,17 @@
     background-color: #ADD8E6;
     color: white;
     position: fixed;
-    height: 100%;
-        
+    height: 100%;   
 }
-
+.LinkJobFeedSD{
+    display: flex;
+    gap: 1vw;
+    text-decoration: none;
+}
+.LinkJA{
+    text-decoration: none;
+    color: black;
+}
 .rightFeed {
     display: flex;
     flex-direction: column;
@@ -73,6 +80,8 @@
     flex-direction: column;
     gap: 2rem;
     background-color: white;
+    text-decoration: none;
+    color: black;
     box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
 }
 
@@ -94,6 +103,8 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    text-decoration: none;
+    color: black;
     align-items: flex-start;
 }
 
@@ -116,6 +127,10 @@
 .DashboardTextfeed{
     padding-bottom: 0.5%;
 }
+.JobsHeading{
+    text-decoration: none;
+    color: white;
+}
 .DashboardStdRight{
     display: flex;
     justify-content: center;
@@ -132,13 +147,17 @@
     width: 2vw;
     height: 2vw;
 }
-.AvailJobsText h1 {
+.AvailJobsText  {
     font-size:2rem;
     font-weight:bold;
     margin-left: 5%; 
     font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    color: black;
+    padding-top: 5%;
+
   }
-  .AvailJobsText h1:before {
+  .AvailJobsText:before {
       background-color: #ADD8E6;
       border-radius: 0.25rem;
       content: '';
@@ -146,4 +165,8 @@
       height: 0.25rem;
       width: 42px;
       margin-bottom: 0.5rem;
+  }
+  .numberOfJobsApptext2,.numberOfJobsApp2{
+    text-decoration: none;
+    color: black;
   }

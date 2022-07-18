@@ -1,6 +1,6 @@
-* {
+/* * {
     box-sizing: border-box;
-}
+} */
 .OuterBodyAddJob {
     background-color: #add8e6;
     font-family: Roboto;
@@ -100,7 +100,10 @@ label {
     width: 7rem;
     height: 10rem;
 }
-
+.LinkSuccessfullyAdded{
+  text-decoration: none;
+  color: white;
+}
 
 @media screen and (max-width: 950px) {
     .departments{

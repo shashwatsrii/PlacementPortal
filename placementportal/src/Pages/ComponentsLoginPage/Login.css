@@ -3,10 +3,29 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-/* body {
-    background-image: linear-gradient(90deg, #E5E5E5 50%, #5479FA 50%);
-} */
-
+.IfCompany{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-decoration: none;
+    color: red;
+    animation: bounce 4s ease infinite;
+}
+.IfCompany:hover{
+    animation: none;
+    color: #085b76;
+}
+@keyframes bounce {
+    85% { transform:translateY(0%); }
+    88% { transform:translateY(-15%); }
+    91% { transform:translateY(0%); }
+    94% { transform:translateY(-7%); }
+    97% { transform:translateY(0%); }
+    99% { transform:translateY(-3%); }
+    100% { transform:translateY(0); }
+}
 .container {
     display: flex;
     flex-direction: row;
@@ -78,8 +97,21 @@ img {
     padding-left: 1vw;
     font-size: 70%;
     margin-top: 10%;
+    width: 12vw ;
+    height: 3vh ;
+    
+    border: 0;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+}
+#EmailInput2 {
+    border-radius: 5px;
+    padding-left: 1vw;
+    font-size: 70%;
+    margin-top: 10%;
     margin-left: 18%;
     border: 0;
+    background-color: white;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
 }
 
@@ -91,6 +123,18 @@ img {
 #PasswordInput {
     border-radius: 5px;
     padding-left: 1vw;
+    width: 13vw ;
+    height: 6vh ;
+    font-size: 70%;
+    margin-top:10% ;
+    border: 0;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+}
+#PasswordInput2 {
+    border-radius: 5px;
+    padding-left: 1vw;
+    width: 13vw ;
+    height: 6vh ;
     font-size: 70%;
     margin-top:10% ;
     margin-left: 18%;
@@ -116,20 +160,36 @@ img {
     border-radius: 5px;
     border-color: white;
     border: 0;
-    margin-left: 28%;
+    display: flex;
+    justify-content: center;
+    margin-left: 18%;
+    align-items: center;
+    text-decoration: none;
+    
 }
-
+.LoginLink{
+    text-decoration: none;
+    color: white;
+}
 .login-input {
     width: 13vw;
     height: 2rem;
 }
 
 .juit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-weight: bolder;
     font-size: 150%;
     color:white;
     margin-top: 5%;
     margin-left: 18%;
+    text-decoration:none;
+}
+.juit1{
+    text-decoration: none;
+    color: white;
 }
 
 .approval {
@@ -152,7 +212,7 @@ img {
     }
 
     .container1 {
-        background-image: linear-gradient(90deg,#E5E5E5 50%, #5479FA 50%);
+        background-image: linear-gradient(90deg,#E5E5E5 50%, #add8e6 50%);
         width: 100%;
     }
 

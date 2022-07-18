@@ -180,6 +180,9 @@
     height: 100%;
         
 }
+.JobAddHeading{
+    color: white;
+}
 
 .rightFeed {
     display: flex;
@@ -226,7 +229,11 @@
 .JobsAppliedContainer2:hover,.JobsAppliedContainer:hover{
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
-
+.LinkJobApplied{
+    text-decoration: none;
+    display: flex;
+    gap: 1vw;
+}
 .JobsAppliedContainer,
 .JobsAppliedContainer2 {
     width: 12vw;
@@ -291,12 +298,13 @@
     gap: 1vw;
     font-weight: bolder;
     position: relative;
+    width: 50%;
 }
 .DashIconStd, .ProfileIcon{
     width: 2vw;
     height: 2vw;
 }
-.AvailJobsText{
+.StudentAppText{
     display: flex;
     justify-content: center;
     padding-bottom: 5%;

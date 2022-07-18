@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import "./StdRegForm.css"
 import JUITLogo from "../../assets/Logo.png"
 
@@ -357,7 +358,7 @@ function StdRegForm() {
                                 <br />
                                 <tr>
                                     <td className='SRBtns' colspan="2" aling="center">
-                                        <input type="Submit" value="Submit" />
+                                       <Link to='/StudentDashboard' > <input type="Submit" value="Submit" /> </Link>
                                         <input type="Reset" value="Reset" />
                                     </td>
                                 </tr>

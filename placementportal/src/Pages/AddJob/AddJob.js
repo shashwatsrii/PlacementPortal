@@ -1,6 +1,8 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import JUITLOGO from "../../assets/Logo.png"
 import "./AddJob.css";
+
 
 function AddJob() {
     return (
@@ -15,7 +17,7 @@ function AddJob() {
                                 <label for="name">Name</label>
                             </div>
                             <div className="col-75">
-                                <input type="text" name="Name" id="" placeholder="Enter the name of your Company" />
+                                <input type="text" name="Name" id="" placeholder="Enter the name of your Company" required/>
                             </div>
                         </div>
                         <div className="row">
@@ -23,7 +25,7 @@ function AddJob() {
                                 <label for="name">Logo</label>
                             </div>
                             <div className="col-75">
-                                <input type="url" name="Logo" id="" placeholder="Enter a link of a suitable company logo" />
+                                <input type="url" name="Logo" id="" placeholder="Enter a link of a suitable company logo" required/>
                             </div>
                         </div>
                         <div className="row">
@@ -31,7 +33,7 @@ function AddJob() {
                                 <label for="Name">Position</label>
                             </div>
                             <div className="col-75">
-                                <input type="text" name="Position" id="" placeholder="Enter the name of the role offered" />
+                                <input type="text" name="Position" id="" placeholder="Enter the name of the role offered" required/>
 
                             </div>
                         </div>
@@ -40,7 +42,7 @@ function AddJob() {
                                 <label for="Name">Skills Required</label>
                             </div>
                             <div className="col-75">
-                                <input type="text" name="Position" id="" placeholder="Enter the skills required for the job" />
+                                <input type="text" name="Position" id="" placeholder="Enter the skills required for the job" required/>
 
                             </div>
                         </div>
@@ -49,7 +51,7 @@ function AddJob() {
                                 <label for="Salary">Salary</label>
                             </div>
                             <div className="col-75">
-                                <input type="text" name="Salary" id="" placeholder="Enter Salary offered for the role" />
+                                <input type="text" name="Salary" id="" placeholder="Enter Salary offered for the role" required/>
                             </div>
                         </div>
                         <div className="row">
@@ -65,7 +67,7 @@ function AddJob() {
                                 <label for="Type">Type</label>
                             </div>
                             <div className="col-75">
-                                <input type="text" name="" id="" />
+                                <input type="text" name="" id="" required />
                             </div>
                         </div>
                         <div className="row">
@@ -73,7 +75,7 @@ function AddJob() {
                                 <label for="MinCGPA">Minimum CGPA</label>
                             </div>
                             <div className="col-75">
-                                <input type="text" name="MinCGPA" id="" />
+                                <input type="text" name="MinCGPA" id="" required/>
                             </div>
                         </div>
                         <div className="row">
@@ -83,7 +85,7 @@ function AddJob() {
                             <div className="col-75">
                                 <div className="departments">
                                     <div className="roundedCorner">
-                                        <input type="checkbox" name="Computer" id="" />
+                                        <input type="checkbox" name="Computer" id=""/>
                                         <label for="">Computer</label>
                                     </div>
 
@@ -115,7 +117,11 @@ function AddJob() {
                             </div>
                         </div>
                     </form>
-                    <button className="submitBTN">Submit</button>
+                    <form >
+                        <Link className="LinkSuccessfullyAdded" to='/CompanyDashboard/AddJob/Success'>
+                        <input action="/" type="submit" className='submitBTN' value="Submit" />
+                        </Link>
+                    </form>
                 </div>
             </div>
         </>

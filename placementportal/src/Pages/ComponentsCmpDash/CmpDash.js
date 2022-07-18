@@ -8,6 +8,7 @@ import NotificationIcon from '../../assets/NotificationIcon.png';
 import AddIcon from "../../assets/addicon.png";
 import DashIcon from '../../assets/DashIcon.png'
 import ProfileNav from '../../assets/ProfileNav.jpeg'
+import { Link } from 'react-router-dom';
 function CmpDash() {
     return (
         <>
@@ -19,8 +20,10 @@ function CmpDash() {
                         <div className='OverviewHeading'>Dashboard</div>
                     </div>
                     <div className='JobsTab TabsDash'>
-                        <div className='JobsIcon'> <img className='IconsDash' id='JobsIcon' src={AddIcon} alt='logo' /></div>
-                        <div className='JobsHeading'>Add Job</div>
+                        <Link className='LinkJobApplied' to='/CompanyDashboard/AddJob'>
+                        <div className='JobAddIcon'> <img className='IconsDash' id='JobsIcon' src={AddIcon} alt='logo' /></div>
+                        <div className='JobAddHeading'>Add Job</div>
+                        </Link>
                     </div>
                     
                     <div className='NotificationTab TabsDash'>
@@ -36,7 +39,7 @@ function CmpDash() {
                         </div>
                         <div className='DashboardStdRight'>
                             <div ><img className='ProfileIcon' src={ProfileNav} alt='logo' /></div>
-                            <div className='ProfileText'>Profile</div>
+                            <div className='ProfileText'>Shashwat Srivastava</div>
                         </div>
                     </div>
 
@@ -58,7 +61,7 @@ function CmpDash() {
                             </div>
                         </div>
                     </div>
-                    <div className='AvailJobsText'>Students Applied</div>
+                    <div className='StudentAppText'>Students Applied</div>
                 <div class="board">
                     <table width="100%">
                         <thead>

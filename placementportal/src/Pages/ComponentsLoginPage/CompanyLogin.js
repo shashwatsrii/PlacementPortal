@@ -1,51 +1,38 @@
-import React from 'react';
+import React from 'react'
 import { Link } from 'react-router-dom';
 import './Login.css';
 import Logo from "../../assets/Logo.png";
 
-function Login() {
-    return (
-        <>
+function CompanyLogin() {
+  return (
+    <>
             <div className="container">
                 <div className="container1">
                     <div className="leftContainer">
                         <div className="WelcomeText">
                            <b> Welcome to Placement Portal !</b>
                         </div>
-                        <div className="IfCompany">
-                            <Link className='IfCompany' to="/cmpLogin">
-                            Click here if you are a Company !
-                            </Link>
-                        </div>
-                        <div>
-                            <b>Student Login</b>
-                        </div>
-                        {/* <div className="EmailHeading">
-                            Email
-                        </div> */}
                         <form action="/" method="post" id="form">
                             <div className="EmailInput">
-                                <input id="EmailInput" type="text" name="rollno" className="login-input" placeholder="Enter Your Roll Number" required /><b><script></script></b>
+                                <input id="EmailInput2" type="email" name="email" className="login-input" placeholder="Enter Your Email" required /><b><script></script></b>
                             </div>
                             {/* <div className="PasswordHeading">
                                 Password
                             </div> */}
                             <div className="PasswordInput">
-                                <input id="PasswordInput" name="password" type="password" className="login-input" placeholder="Enter Your Password" required />
+                                <input id="PasswordInput2" name="password" type="password" className="login-input" placeholder="Enter Your Password" required />
                             </div>
-                            {/* <div className="reset">
+                            <div className="reset">
                                 <b> Reset Password</b>
-                            </div> */}
+                            </div>
                             <div className="loginButton">
                                 <button id="LoginButton" className="login-input">
-                                   <Link to='/StudentDashboard' className='LoginLink' > Login</Link>
+                                <Link to='/CompanyDashboard'  className='LoginLink'> Login</Link>
                                 </button>
                             </div>
-                            {/* <div className='SignUP'>
-                                  <div className="DontHave"> Dont have an account? </div>
-                                  <a href="../ComponentsStdDash/StdDash.js" className="Click"> Click Here </a>
-                                  <div className="DontHave"> to sign up </div>
-                            </div> */}
+                            <div className='SignUP'>
+                                  <div className='SignUpBtn'>Dont have an account? <Link to='/Register' >Click here</Link> to sign up.</div>
+                            </div>
                         </form>
                     </div>
                 </div>
@@ -67,7 +54,7 @@ function Login() {
 
 
         </>
-    )
+  )
 }
 
-export default Login;
+export default CompanyLogin

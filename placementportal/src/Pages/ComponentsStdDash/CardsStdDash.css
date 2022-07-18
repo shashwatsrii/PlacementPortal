@@ -43,4 +43,13 @@
     color: rgb(0, 0, 0);
     font-weight: bolder;
     border-radius: 5px;
+    text-decoration: none;
+}
+.ApplyNowText{
+    text-decoration: none;
+    color: white;
+}
+.LinkJobDescription{
+    text-decoration: none;
+    color: black;
 }
