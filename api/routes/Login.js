@@ -1,6 +1,6 @@
 import React, {useState,useEffect} from 'react';
 import { Link } from 'react-router-dom';
-import { useHistory } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import './Login.css';
 import Logo from "../../assets/Logo.png";
 
@@ -11,13 +11,13 @@ function Login() {
 
     const [loading,setloading]=useState(""); 
     
-    const history = useHistory();
-    useEffect(() => {
-        if (localStorage.getItem('user-info')){
-            // history.push("/StudentDashboard")
-        }
+    // const navigate = useNavigate();
+    // useEffect(() => {
+        // if (localStorage.getItem('user-info')){
+            // navigate.push("/add")
+        // }
 
-    },[])
+    // },[])
     async function login()
     {
         setloading(true)
@@ -37,12 +37,11 @@ function Login() {
         if(result.success === true)
         {
             localStorage.setItem('user-info',JSON.stringify(item));
-            setloading(false);
-            history.push("/StudentDashboard");
+            // navigate.push("/add")
             console.log(result)
         }
         else{
-            console.log("login not valid");
+            setloading(false);
             return;
         }
     }
@@ -87,8 +86,7 @@ function Login() {
                             </div> */}
                             <div className="loginButton">
                                 <button onClick={login}id="LoginButton" className="login-input">
-                                    Login
-                                   {/* <Link to='/StudentDashboard' className='LoginLink' > Login</Link> */}
+                                   <Link to='/StudentDashboard' className='LoginLink' > Login</Link>
                                 </button>
                             </div>
                             {/* <div className='SignUP'>
