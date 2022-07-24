@@ -1,0 +1,54 @@
+.containerProfilePage{
+    display: flex;
+    flex-direction: column;
+}
+.ProfileHeadingProfile{
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #add8e6;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.DetailsProfile{
+    display: flex;
+    width: 100%;
+}
+.ProfileLeft,.ProfileRight{
+    width: 33%;
+    height: 75vh;
+    display: flex;
+    padding-top: 7%;
+    
+}
+.ProfileImageCenter{
+    width: 33%;
+    height: 45vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.ProfileLeft,.ProfileRight {
+    flex-direction: column;
+    gap: 5%;
+}
+.details{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 5%;
+}
+.details1{
+    display: flex;
+    width: 100%;
+    gap: 5%;
+}
+.ProfileHeadingProfile{
+    display: flex;
+    flex-direction:column;
+}
+.ProfileTextPage{
+    font-size: 1.5rem;
+    padding-bottom: 1%;
+}

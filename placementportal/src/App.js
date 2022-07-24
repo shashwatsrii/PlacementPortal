@@ -12,6 +12,7 @@ import Error from "./Pages/Error";
 import CompanyLogin from "./Pages/ComponentsLoginPage/CompanyLogin";
 import JobFeed from "./Pages/ComponentsStdDash/JobFeed";
 import SubmittedSucess from "./Pages/AddJob/FormSubmitted";
+import Profile from "./Pages/ProfilePage/Profile";
 
 
 
@@ -39,6 +40,7 @@ class App extends Component {
                 {/* <p className="App-intro">;{this.state.apiResponse}</p> */}
                 <Switch>
                     <Route exact path="/" component = {LoginPage} />
+                    <Route exact path="/Profile" component = {Profile} />
                     <Route exact path="/cmpLogin" component = {CompanyLogin} />
                     <Route exact path="/Register" component = {RegistrationForm} />
                     <Route exact path="/StudentDashboard" component = {StdDashboard} />
