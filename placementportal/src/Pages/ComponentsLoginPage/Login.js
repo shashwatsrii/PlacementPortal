@@ -43,6 +43,8 @@ function Login() {
         }
         else{
             console.log("login not valid");
+            // history.push("/error");
+            // alert("username not validd");
             return;
         }
     }
@@ -50,7 +52,9 @@ function Login() {
         <>
                         {loading ?
             <>
-            loading   
+            
+            <h1>Please wait...</h1>
+            <div className="ring"> </div>  
         
             </>
         :

@@ -7,7 +7,7 @@ import ProfileIcon from '../../assets/ProfileIcon.png';
 import NotificationIcon from '../../assets/NotificationIcon.png';
 import AddIcon from "../../assets/addicon.png";
 import DashIcon from '../../assets/DashIcon.png'
-import ProfileNav from '../../assets/ProfileNav.jpeg'
+import ProfileNav from '../../assets/am1.png'
 import { Link } from 'react-router-dom';
 function CmpDash() {
     return (
@@ -39,7 +39,7 @@ function CmpDash() {
                         </div>
                         <div className='DashboardStdRight'>
                             <div ><img className='ProfileIcon' src={ProfileNav} alt='logo' /></div>
-                            <div className='ProfileText'>Shashwat Srivastava</div>
+                            <div className='ProfileText'>AMAZON</div>
                         </div>
                     </div>
 
