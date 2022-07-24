@@ -43,8 +43,8 @@ function Profile() {
         <>
         {loading ?
             <>
-               <h1>Please wait...</h1>
-            <div className="ring"> </div>  
+            {/* //   <h1>Please wait...</h1>
+            // <div className="ring"> </div>   */}
         
             </>
         :
@@ -56,15 +56,15 @@ function Profile() {
                 </div>
                 <div className='DetailsProfile'>
                     <div className='ProfileLeft'>
-                        <div className='NameProfile details'>
+                        <div className='NameProfile details5'>
                             <div className='NameTitle'> <b>Name : </b> </div>
                             <div className='Name_fetched'>{personal.Name}</div>
                         </div>
-                        <div className='EnrollmentProfile details'>
+                        <div className='EnrollmentProfile details5'>
                             <div className='EnrollmentTitle'> <b>Enrollment Number : </b> </div>
                             <div className='Enroll_fetched'>{personal.Rollno}</div>
                         </div>
-                        <div className='Profile details'>
+                        <div className='Profile details5'>
                             <div className='EnrollmentTitle'> <b>Email : </b> </div>
                             <div className='Enroll_fetched'>{personal.Email}</div>
                         </div>
