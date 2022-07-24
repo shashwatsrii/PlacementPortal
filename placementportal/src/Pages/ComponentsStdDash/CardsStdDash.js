@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import "./CardsStdDash.css";
-import lgoCmop from "../../assets/Logo.png"
+import lgoCmop from "../../assets/am1.png"
 
 function Card(cmpName,cmpDes,Domain,logoCmp) {
     return (
@@ -11,8 +11,8 @@ function Card(cmpName,cmpDes,Domain,logoCmp) {
                 <div className="Card">
                     <div className="CompanyLogoFeed"><img className='CmpLogo' src={lgoCmop} /></div>
                     <div className="CompanyDetails">
-                        <div className='CompanyName'>Lorem Ipsum</div>
-                        <div className='CompanyDes'>Lorem Ipsum Lorem Ipsum Lorem Ipsum</div>
+                        <div className='CompanyName'>Amazon</div>
+                        <div className='CompanyDes'>NO 1 Comapany in the world Gives you a lot of experriense </div>
                     </div>
                     <div className="CardrightSide">
                         <div className='domainOfJob'>Tech/Non Tech</div>

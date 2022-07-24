@@ -51,6 +51,7 @@ class App extends Component {
                     <Route exact path="/CompanyDashboard/AddJob" component = {AddJob} />
                     <Route exact path="/CompanyDashboard/AddJob/Success" component = {SubmittedSucess} />
                     <Route component = {Error} />
+                    <Route exact path = "/error" component={Error} />
                 </Switch>
                 <p className="App-intro">;{this.state.apiResponse}</p>
             

@@ -36,8 +36,8 @@
 .details{
     display: flex;
     width: 100%;
-    justify-content: center;
     gap: 5%;
+    padding-left: 10%;
 }
 .details1{
     display: flex;
@@ -52,3 +52,25 @@
     font-size: 1.5rem;
     padding-bottom: 1%;
 }
+
+.ring {
+    border: 20px solid rgb(211, 211, 211);
+    position: absolute;
+    left: 45%;
+    border-radius: 50%;
+    border-top: 20px solid #ADD8E6;
+    width: 100px;
+    height: 100px;
+    animation: spin 1s linear infinite;
+   
+  }
+
+
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  } 

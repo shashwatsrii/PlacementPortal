@@ -107,3 +107,12 @@ td {
     text-align: center;
     width: 10vw;
 }
+.jobDescJD{
+    display: flex;
+
+}
+.despi{
+    font-size: medium;
+    display: flex;
+    align-items: center;
+}
