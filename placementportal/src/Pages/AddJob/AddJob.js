@@ -14,41 +14,41 @@ function AddJob() {
                     <form action="#">
                         <div className="row">
                             <div className="col-25">
-                                <label for="name">Name</label>
+                                <label5 for="name">Name</label5>
                             </div>
                             <div className="col-75">
-                                <input type="text" name="Name" id="" placeholder="Enter the name of your Company" required/>
+                                <input1 type="text" name="Name" id="" placeholder="Enter the name of your Company" required/>
                             </div>
                         </div>
                         <div className="row">
                             <div className="col-25">
-                                <label for="name">Logo</label>
+                                <label5 for="name">Logo</label5>
                             </div>
                             <div className="col-75">
-                                <input type="url" name="Logo" id="" placeholder="Enter a link of a suitable company logo" required/>
+                                <input1 type="url" name="Logo" id="" placeholder="Enter a link of a suitable company logo" required/>
                             </div>
                         </div>
                         <div className="row">
                             <div className="col-25">
-                                <label for="Name">Position</label>
+                                <label5 for="Name">Position</label5>
                             </div>
                             <div className="col-75">
-                                <input type="text" name="Position" id="" placeholder="Enter the name of the role offered" required/>
+                                <input1 type="text" name="Position" id="" placeholder="Enter the name of the role offered" required/>
 
                             </div>
                         </div>
                         <div className="row">
                             <div className="col-25">
-                                <label for="Name">Skills Required</label>
+                                <label5 for="Name">Skills Required</label5>
                             </div>
                             <div className="col-75">
-                                <input type="text" name="Position" id="" placeholder="Enter the skills required for the job" required/>
+                                <input1 type="text" name="Position" id="" placeholder="Enter the skills required for the job" required/>
 
                             </div>
                         </div>
                         <div className="row">
                             <div className="col-25">
-                                <label for="Salary">Salary</label>
+                                <label5 for="Salary">Salary</label5>
                             </div>
                             <div className="col-75">
                                 <input type="text" name="Salary" id="" placeholder="Enter Salary offered for the role" required/>
@@ -56,7 +56,7 @@ function AddJob() {
                         </div>
                         <div className="row">
                             <div className="col-25">
-                                <label for="Description">Description</label>
+                                <label5 for="Description">Description</label5>
                             </div>
                             <div className="col-75">
                                 <textarea name="Description" id="" cols="100" rows="5"></textarea>
@@ -64,54 +64,54 @@ function AddJob() {
                         </div>
                         <div className="row">
                             <div className="col-25">
-                                <label for="Type">Type</label>
+                                <label5 for="Type">Type</label5>
                             </div>
                             <div className="col-75">
-                                <input type="text" name="" id="" required />
+                                <input1 type="text" name="" id="" required />
                             </div>
                         </div>
                         <div className="row">
                             <div className="col-25">
-                                <label for="MinCGPA">Minimum CGPA</label>
+                                <label5 for="MinCGPA">Minimum CGPA</label5>
                             </div>
                             <div className="col-75">
-                                <input type="text" name="MinCGPA" id="" required/>
+                                <input1 type="text" name="MinCGPA" id="" required/>
                             </div>
                         </div>
                         <div className="row">
                             <div className="col-25">
-                                <label for="departments">Departments</label>
+                                <label5 for="departments">Departments</label5>
                             </div>
                             <div className="col-75">
                                 <div className="departments">
                                     <div className="roundedCorner">
-                                        <input type="checkbox" name="Computer" id=""/>
-                                        <label for="">Computer</label>
+                                        <input1 type="checkbox" name="Computer" id=""/>
+                                        <label5 for="">Computer</label5>
                                     </div>
 
                                     <div className="roundedCorner">
-                                        <input type="checkbox" name="IT" id="" />
-                                        <label for="">IT</label>
+                                        <input1 type="checkbox" name="IT" id="" />
+                                        <label5 for="">IT</label5>
                                     </div>
                                     <div className="roundedCorner">
-                                        <input type="checkbox" name="Data Science" id="" />
-                                        <label for="">Data Science</label>
+                                        <input1 type="checkbox" name="Data Science" id="" />
+                                        <label5 for="">Data Science</label5>
                                     </div>
                                     <div className="roundedCorner">
-                                        <input type="checkbox" name="Chemical" id="" />
-                                        <label for="">Chemical</label>
+                                        <input1 type="checkbox" name="Chemical" id="" />
+                                        <label5 for="">Chemical</label5>
                                     </div>
                                     <div className="roundedCorner">
-                                        <input type="checkbox" name="Biomedical" id="" />
-                                        <label for="">Biomedical</label>
+                                        <input1 type="checkbox" name="Biomedical" id="" />
+                                        <label5 for="">Biomedical</label5>
                                     </div>
                                     <div className="roundedCorner">
-                                        <input type="checkbox" name="Electronics" id="" />
-                                        <label for="">Electronics</label>
+                                        <input1 type="checkbox" name="Electronics" id="" />
+                                        <label5 for="">Electronics</label5>
                                     </div>
                                     <div className="roundedCorner">
-                                        <input type="checkbox" name="Mechanical" id="" />
-                                        <label for="">Mechanical</label>
+                                        <input1 type="checkbox" name="Mechanical" id="" />
+                                        <label5 for="">Mechanical</label5>
                                     </div>
                                 </div>
                             </div>
@@ -119,7 +119,7 @@ function AddJob() {
                     </form>
                     <form >
                         <Link className="LinkSuccessfullyAdded" to='/CompanyDashboard/AddJob/Success'>
-                        <input action="/" type="submit" className='submitBTN' value="Submit" />
+                        <input1 action="/" type="submit" className='submitBTN' value="Submit" />
                         </Link>
                     </form>
                 </div>

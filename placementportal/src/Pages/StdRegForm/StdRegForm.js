@@ -351,7 +351,7 @@ function StdRegForm() {
                                 </div>
                                 <br />
                                 <input type="file" name="stuinfo" id="stuinfo" />
-                                <input type="submit" value="Upload File" />
+                                <input className='uploadbtn' type="submit" value="Upload File" />
                                 <br />
                             </form>
                             <div>
