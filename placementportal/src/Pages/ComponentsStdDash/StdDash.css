@@ -74,7 +74,6 @@
 .JobsAppliedContainer2 {
     width: 12vw;
     padding: 3rem;
-    
     border-radius: 5px;
     display: flex;
     flex-direction: column;
@@ -142,6 +141,7 @@
     gap: 1vw;
     font-weight: bolder;
     position: relative;
+    width: 50%;
 }
 .DashIconStd, .ProfileIcon{
     width: 2vw;
@@ -169,4 +169,11 @@
   .numberOfJobsApptext2,.numberOfJobsApp2{
     text-decoration: none;
     color: black;
+  }
+  .profiles{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
   }

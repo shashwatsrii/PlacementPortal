@@ -39,10 +39,13 @@ function StdDash() {
                             <div className='DashboardStdIcon'> <img className='DashIconStd' src={DashIcon} alt='logo' /></div>
                             <div className='DashboardTextfeed'>Dashboard</div>
                         </div>
-                        <div className='DashboardStdRight'> <Link className='profiles' to='/Profile'><div ><img className='ProfileIcon' src={ProfileNav} alt='logo' /></div>
-                            <div className='ProfileText'>
-                            Profile</div> </Link> 
-                            
+                        <div className='DashboardStdRight'>
+                            <Link className='profiles' to='/Profile'>
+                                <div ><img className='ProfileIcon' src={ProfileNav} alt='logo' /></div>
+                                <div className='ProfileText'>
+                                    Profile (User Name)</div>
+                            </Link>
+
                         </div>
                     </div>
 
