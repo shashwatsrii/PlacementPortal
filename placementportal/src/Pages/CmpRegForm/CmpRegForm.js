@@ -29,7 +29,7 @@ function CmpRegForm() {
                         </div>
                     </form>
                     <p className="para-2">
-                        Already have an account? <a href="login.html">Login here</a>
+                        Already have an account? <a href="cmpLogin">Login here</a>
                     </p>
                 </div>
                 </div>
