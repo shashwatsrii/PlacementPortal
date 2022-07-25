@@ -4,7 +4,7 @@ import {BsFillTelephoneFill, BsInstagram} from "react-icons/bs"
 import {FaGoogle} from "react-icons/fa"
 import {Link} from 'react-router-dom';
 import JuitLogo from "../../assets/Logo.png"
-import acm from "../../assets/acm.png"
+import acm from "../../assets/acmj.png"
 function Footer() {
   return (
     <>
@@ -34,13 +34,13 @@ function Footer() {
 
 
         <div className='Footer-Logo'>
-          <div className='Footer-Logo_Murious'>
-              <img className='Murious-Logo' alt='Murious' src={JuitLogo}/>
-          </div>
           <div className='Footer-Logo_TMP'>
               <img className='TMP_logo' alt='TMP' src={acm}/>
 
               <p className='TMP-Text'></p>
+          </div>
+          <div className='Footer-Logo_Murious'>
+              <img className='Murious-Logo' alt='Murious' src={JuitLogo}/>
           </div>
         </div>
 

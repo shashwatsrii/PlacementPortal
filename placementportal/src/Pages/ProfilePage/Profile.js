@@ -3,10 +3,10 @@ import "./Profile.css"
 import ProfilePhoto from "../../assets/ProfilePic.png"
 
 function Profile() {
-    const {loading,setLoading} = useState(false);
+    const {loading,SetLoading} = useState(false);
     async function personalDetails()
     {
-        setLoading(true);
+        SetLoading(true);
         let user = JSON.parse(localStorage.getItem('user-info'));
         console.warn("data",user.username,user.password)
         let result= await fetch('https://juit-webkiosk-api.herokuapp.com/v1.0/personalDetails',{
@@ -20,30 +20,30 @@ function Profile() {
         result = await result.json();
         localStorage.setItem('personal-details',JSON.stringify(result));
      
-        let user1 = JSON.parse(localStorage.getItem('user-info'));
-        console.warn("data",user.username,user.password)
-        let result1= await fetch('https://juit-webkiosk-api.herokuapp.com/v1.0/cgpa',{
-            method: 'POST',
-            headers:{
-                "Content-Type":"application/json",
-                "Accept":"application/json"
-            },
-            body:JSON.stringify(user1)
-        });
-        result1 = await result1.json();
-        localStorage.setItem('cgpa1',JSON.stringify(result1));
-        setLoading(false);
+        // let user1 = JSON.parse(localStorage.getItem('user-info'));
+        // console.warn("data",user.username,user.password)
+        // let result1= await fetch('https://juit-webkiosk-api.herokuapp.com/v1.0/cgpa',{
+        //     method: 'POST',
+        //     headers:{
+        //         "Content-Type":"application/json",
+        //         "Accept":"application/json"
+        //     },
+        //     body:JSON.stringify(user1)
+        // });
+        // result1 = await result1.json();
+        // localStorage.setItem('cgpa1',JSON.stringify(result1));
+        SetLoading(false);
         
     }
     personalDetails();
     const personal = JSON.parse(localStorage.getItem('personal-details'));
-    const cgpa = JSON.parse(localStorage.getItem('cgpa1'));
+    // const cgpa = JSON.parse(localStorage.getItem('cgpa1'));
 
     return (
         <>
         {loading ?
             <>
-               <h1>Please wait...</h1>
+            //   <h1>Please wait...</h1>
             <div className="ring"> </div>  
         
             </>
@@ -56,15 +56,15 @@ function Profile() {
                 </div>
                 <div className='DetailsProfile'>
                     <div className='ProfileLeft'>
-                        <div className='NameProfile details'>
+                        <div className='NameProfile details5'>
                             <div className='NameTitle'> <b>Name : </b> </div>
                             <div className='Name_fetched'>{personal.Name}</div>
                         </div>
-                        <div className='EnrollmentProfile details'>
+                        <div className='EnrollmentProfile details5'>
                             <div className='EnrollmentTitle'> <b>Enrollment Number : </b> </div>
                             <div className='Enroll_fetched'>{personal.Rollno}</div>
                         </div>
-                        <div className='Profile details'>
+                        <div className='Profile details5'>
                             <div className='EnrollmentTitle'> <b>Email : </b> </div>
                             <div className='Enroll_fetched'>{personal.Email}</div>
                         </div>

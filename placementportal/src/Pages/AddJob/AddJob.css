@@ -58,7 +58,7 @@
     0px 0px 31px rgba(0, 0, 0, 0.048), 0px 0px 58.1px rgba(0, 0, 0, 0.058),
     0px 0px 139px rgba(0, 0, 0, 0.08);
 }
-input[type="text"],
+input9[type="text"],
 select,
 textarea,
 [type="url"] {
@@ -71,7 +71,7 @@ textarea,
   resize: vertical;
 }
 
-label {
+label5 {
   padding: 12px 12px 12px 0;
   display: inline-block;
 }

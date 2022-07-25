@@ -109,10 +109,14 @@ td {
 }
 .jobDescJD{
     display: flex;
+    flex-direction: column;
 
 }
 .despi{
     font-size: medium;
     display: flex;
     align-items: center;
+}
+.aa{
+    padding-top: 1%;
 }

@@ -33,7 +33,7 @@
     flex-direction: column;
     gap: 5%;
 }
-.details{
+.details5{
     display: flex;
     width: 100%;
     gap: 5%;
@@ -52,7 +52,10 @@
     font-size: 1.5rem;
     padding-bottom: 1%;
 }
-
+.CGPATitle{
+    margin-left: 10%;
+}
+/* 
 .ring {
     border: 20px solid rgb(211, 211, 211);
     position: absolute;
@@ -73,4 +76,4 @@
     100% {
       transform: rotate(360deg);
     }
-  } 
+  }  */

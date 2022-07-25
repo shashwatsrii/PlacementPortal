@@ -351,14 +351,14 @@ function StdRegForm() {
                                 </div>
                                 <br />
                                 <input type="file" name="stuinfo" id="stuinfo" />
-                                <input type="submit" value="Upload File" />
+                                <input className='uploadbtn' type="submit" value="Upload File" />
                                 <br />
                             </form>
                             <div>
                                 <br />
                                 <tr>
                                     <td className='SRBtns' colspan="2" aling="center">
-                                       <Link to='/StudentDashboard' > <input type="Submit" value="Submit" /> </Link>
+                                       <Link to='/CompanyDashboard/AddJob/Success' > <input type="Submit" value="Submit" /> </Link>
                                         <input type="Reset" value="Reset" />
                                     </td>
                                 </tr>

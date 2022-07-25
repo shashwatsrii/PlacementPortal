@@ -123,8 +123,8 @@ img {
 #PasswordInput {
     border-radius: 5px;
     padding-left: 1vw;
-    width: 13vw ;
-    height: 6vh ;
+    width: 12.4vw ;
+    height: 4.8vh ;
     font-size: 70%;
     margin-top:10% ;
     border: 0;
@@ -208,6 +208,27 @@ img {
     margin-top: 5%;
     width: 35%;
 }
+.ring {
+    border: 20px solid rgb(211, 211, 211);
+    position: absolute;
+    left: 45%;
+    border-radius: 50%;
+    border-top: 20px solid #ADD8E6;
+    width: 100px;
+    height: 100px;
+    animation: spin 1s linear infinite;
+   
+  }
+
+
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
 
 @media only screen and (max-width: 600px) {
 
