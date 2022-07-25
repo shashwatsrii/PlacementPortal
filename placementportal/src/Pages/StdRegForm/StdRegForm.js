@@ -358,7 +358,7 @@ function StdRegForm() {
                                 <br />
                                 <tr>
                                     <td className='SRBtns' colspan="2" aling="center">
-                                       <Link to='/StudentDashboard' > <input type="Submit" value="Submit" /> </Link>
+                                       <Link to='/CompanyDashboard/AddJob/Success' > <input type="Submit" value="Submit" /> </Link>
                                         <input type="Reset" value="Reset" />
                                     </td>
                                 </tr>
